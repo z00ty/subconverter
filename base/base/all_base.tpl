@@ -6,7 +6,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 secret: 'cisco123'
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 dns:
   enable: true
   prefer-h3: true
