@@ -1,0 +1,64 @@
+[[custom_groups]]
+name = "🔰 节点选择"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🤖 AI"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "🎬 全球媒体"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "📲 聊天软件"
+type = "select"
+rule = ["[]🔰 节点选择",".*"]
+
+[[custom_groups]]
+name = "Ⓜ️ 微软"
+type = "select"
+rule = ["[]🎯 直接连接",".*"]
+
+[[custom_groups]]
+name = "🍎 苹果"
+type = "select"
+rule = ["[]🎯 直接连接",".*"]
+
+[[custom_groups]]
+name = "🎯 直接连接"
+type = "select"
+rule = ["[]DIRECT","[]🔰 节点选择"]
+
+[[custom_groups]]
+name = "🎮 游戏下载"
+type = "select"
+rule = ["[]🎯 直接连接",".*"]
+
+[[custom_groups]]
+name = "🎮 游戏平台"
+type = "select"
+rule = ["[]🔰 节点选择",".*"]
+
+[[custom_groups]]
+name = "📺 哔哩哔哩"
+type = "select"
+rule = ["[]🎯 直接连接",".*"]
+
+[[custom_groups]]
+name = "📺 巴哈姆特"
+type = "select"
+rule = ["(台|tw)"]
+
+[[custom_groups]]
+name = "🛑 广告拦截"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🐟 漏网之鱼"
+type = "select"
+rule = ["[]🔰 节点选择"]
